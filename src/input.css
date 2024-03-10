@@ -21,4 +21,17 @@
 
 body{
     background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+
 }
+
+.home-creators-bg{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-image: url(/img/home-bg.png);
+}
+
+

@@ -16,9 +16,6 @@ module.exports = {
           "#0D0D0D":"#0D0D0D",
           "#919191":"#919191"
       },
-      boxShadow:{
-        'korzinkashadow':'-30px 15px 50px 0px rgba(0, 0, 0, 0.15)'
-      }
    },
   },
 }
