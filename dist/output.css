@@ -1030,6 +1030,10 @@ video {
   font-size: 43px;
 }
 
+.text-\[27px\] {
+  font-size: 27px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1104,6 +1108,10 @@ video {
 
 .leading-\[150px\] {
   line-height: 150px;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .text-\#0FC65C {
