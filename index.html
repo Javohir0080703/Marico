@@ -22,13 +22,13 @@
     <meta name="yandex-verification" id="yandex-verification" content="index, follow">
     <meta name="yandex" id="yandex" content="index, follow">
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQKW5DQQ3S"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQKW5DQQ3S"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-1YDYC19NRK');
-    </script>
+    </script> -->
     <!-- Font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,10 +42,12 @@
 
 <body>
     <!-- header -->
-    <header class="py-12 ">
+    <header class="py-12 z-10">
         <div class="containerb flex items-center justify-between">
-            <img src="./img/Company_logo.svg" alt="Company-logo">
-            <nav>
+            <a href='#'>
+                <img src="./img/Company_logo.svg" alt="Company-logo">
+            </a>
+            <nav class="910px:block hidden">
                 <ul class="flex items-center space-x-10">
                     <li>
                         <select class="text-#707070 bg-transparent text-xl font-medium leading-[30px] ">
@@ -68,7 +70,7 @@
                     </li>
                 </ul>
             </nav>
-            <div class="flex items-center space-x-3">
+            <div class="910px:flex hidden items-center space-x-3">
                 <a href="#" class="inline-block py-3 px-5 text-xl font-medium leading-[30px] text-#707070 rounded-lg">
 
                     Login
@@ -78,28 +80,44 @@
                     Sign Up
                 </a>
             </div>
+            <button class='910px:hidden block js-ElOpenBox'>
+                <svg xmlns="http://www.w3.org/2000/svg" clipPath='15px' x="0px" y="0px" width="40" height="40"
+                    viewBox="0,0,256,256">
+                    <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none">
+                        <g transform="scale(5.12,5.12)">
+                            <path d="M0,7.5v5h50v-5zM0,22.5v5h50v-5zM0,37.5v5h50v-5z"></path>
+                        </g>
+                    </g>
+                </svg>
+            </button>
         </div>
     </header>
     <!-- hero -->
-    <section class="pt-20 pb-14">
+    <section class="pt-20 pb-14 z-10">
         <div class="containerb ">
-            <h1 class="text-white font-bold text-[112px] leading-[118px]  text-center mb-44">Own your audience. <br>
+            <h1
+                class="text-white font-bold text-xl 340px:text-2xl 450px:text-3xl 650px:text-[40px] 910px:text-[60px] 1200px:text-[90px] 1500px:text-[112px] leading-7 450px:leading-10 650px:leading-[50px] 910px:leading-[70px] 1200px:leading-[118px]  text-center  mb-8 340px:mb-14 650px:mb-24 910px:mb-32 1200px:mb-44">
+                Own your audience. <br>
                 <span class="bg-gradient-to-r from-#FE6783 to-#FFBF84 text-transparent bg-clip-text">So you don't lose
                     them</span>
             </h1>
-            <div class="w-full max-w-[694px] mx-auto">
+            <div>
                 <div>
-                    <h2 class="text-[40px] text-white font-medium leading-[60px] text-center mb-[50px]">Turn your
-                        audience into email and text message subscribers.</h2>
-                    <div class="space-x-6 mb-10">
-                        <a class="py-6 px-[75px] bg-#326CF9 text-white rounded-xl text-xl font-medium leading-8  "
+                    <h2
+                        class="1200px:text-[40px] 910px:text-3xl 650px:text-2xl   450px:text-lg  340px:text-base  text-xs text-white font-medium leading-5 340px:leading-8 910px:leading-10 1200px:leading-[60px] text-center mb-8 560px:mb-[50px]">
+                        Turn your
+                        audience into email and <br> text message subscribers.</h2>
+                    <div class="560px:space-x-6 space-y-6 560px:space-y-0 mb-10 flex max-560px:flex-col justify-center">
+                        <a class="max-560px:w-full max-560px:max-w-[200px] mx-auto 560px:mx-0 910px:py-6 560px:py-6 py-4 910px:px-[75px] text-base text-center px-2 560px:px-8 bg-#326CF9 text-white rounded-xl 560px:text-xl font-medium  "
                             href="#">Get Started Now</a>
-                        <a class="py-6 px-[75px] bg-transparent text-#707070 rounded-xl border border-#707070 text-xl font-medium leading-8  "
+                        <a class="max-560px:w-full max-560px:max-w-[200px] mx-auto 560px:mx-0 910px:py-6 560px:py-6 py-4 910px:px-[75px]  560px:px-8  px-4 text-center bg-transparent text-#707070 rounded-xl border border-#707070 560px:text-xl  text-base font-medium   "
                             href="#">Get Started Now</a>
                     </div>
                     <div class="flex items-center justify-center">
-                        <img class="mr-2.5" src="./img/Dot.svg" alt="Dot">
-                        <p class="text-#707070 text-2xl leading-[38px] text-center  ">
+                        <img class="mr-2.5 w-full max-w-[28px]" src="./img/Dot.svg" alt="Dot">
+                        <p class="text-#707070 910px:text-2xl text-xs 560px:text-lg leading-[38px] text-center  ">
                             <span class="text-white font-bold ">1000+</span>
                             creators have already started
                         </p>
@@ -109,7 +127,7 @@
         </div>
     </section>
     <!-- faq -->
-    <section class="pt-32 pb-20">
+    <section class="pt-32 pb-20 hidden z-10">
         <div class="containerb">
             <h1 class=" text-white text-[75px] font-semibold leading-[112px] text-center mb-16">Why Creators Love Marico
             </h1>
@@ -140,7 +158,7 @@
     </section>
 
     <!-- steps -->
-    <section class="pt-20 pb-10">
+    <section class="pt-20 pb-10 hidden z-10">
         <div class="containerb">
             <!-- step-1 -->
             <div class="mb-[71px]">
@@ -261,7 +279,7 @@
     </section>
 
     <!-- swiper-coments -->
-    <section class="pt-14 pb-[188px]">
+    <section class="pt-14 pb-[188px] hidden z-10">
         <div class="containerb">
             <h1 class=" text-white text-center  font-semibold text-[75px] leading-[112px] mb-12">Experts Agree</h1>
             <div class="swiper mySwiper">
@@ -303,7 +321,7 @@
         </div>
     </section>
     <!-- creators -->
-    <section class="pt-[301px] pb-[288px] home-creators-bg">
+    <section class="pt-[301px] pb-[288px] z-10 home-creators-bg hidden">
         <div class="containerb">
             <h1 class="text-center text-[70px] font-semibold leading-[105px] text-white">We've helped over 1,000
                 creatorsre <br>
@@ -311,7 +329,7 @@
         </div>
     </section>
     <!-- cta -->
-    <section class="py-[188px] ">
+    <section class="py-[188px] hidden z-10">
         <div class="containerb">
             <a class="flex justify-center mb-5" href="#">
                 <img src="./img/Logo.svg" alt="Logo">
@@ -333,7 +351,7 @@
         </div>
     </section>
     <!-- footer -->
-    <footer class="pb-24">
+    <footer class="hidden z-10">
         <div class="containerb flex items-center justify-between">
             <div>
                 <a class="block " href="#">
@@ -363,6 +381,70 @@
             </nav>
         </div>
     </footer>
+
+    <!-- headet-responsive-box -->
+    <div class="910px:hidden">
+        <div
+            class="w-full min-w-[100vw] h-full min-h-[100vh]  bg-black py-12 fixed  top-0 z-50 transition js-header-box  hidden ">
+            <div class="containerb ">
+                <div class="flex justify-between items-center mb-10">
+                    <a class="block" href='#'>
+                        <img src="./img/Company_logo.svg" alt="Company-logo">
+                    </a>
+                    <button class="js-ElCloseBox block w-10 h-10 560px:pr-0 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
+                            viewBox="0,0,256,256">
+                            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(5.12,5.12)">
+                                    <path
+                                        d="M9.15625,6.3125l-2.84375,2.84375l15.84375,15.84375l-15.9375,15.96875l2.8125,2.8125l15.96875,-15.9375l15.9375,15.9375l2.84375,-2.84375l-15.9375,-15.9375l15.84375,-15.84375l-2.84375,-2.84375l-15.84375,15.84375z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+                <nav>
+                    <ul class="flex items-center flex-col space-y-8 mb-10">
+                        <li>
+                            <select class="text-#707070 bg-transparent text-xl font-medium leading-[30px] ">
+                                <option>Use Cases</option>
+                                <option>Use Cases</option>
+                                <option>Use Cases</option>
+                            </select>
+                        </li>
+                        <li>
+                            <a class="text-#707070 text-xl font-medium leading-[30px] active:text-#3C82F4 hover:text-#3C82F4 transition"
+                                href="#">About</a>
+                        </li>
+                        <li>
+                            <a class="text-#707070 text-xl font-medium leading-[30px] active:text-#3C82F4 hover:text-#3C82F4 transition"
+                                href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a class="text-#707070 text-xl font-medium leading-[30px] active:text-#3C82F4 hover:text-#3C82F4 transition"
+                                href="#">Blog</a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <div class="flex flex-col items-center space-y-3">
+                    <a href="#"
+                        class="inline-block py-3 px-5 text-xl font-medium leading-[30px] text-#707070 rounded-lg">
+
+                        Login
+                    </a>
+                    <a href="#"
+                        class="inline-block py-3 px-5 bg-#306EF7 text-xl font-medium leading-[30px] text-white rounded-lg">
+                        Sign Up
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
 </body>
